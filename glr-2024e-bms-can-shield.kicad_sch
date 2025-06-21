@@ -5212,6 +5212,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "BMS-charger:\n0V : Stop charging\n3.3V : Start charging"
+		(exclude_from_sim no)
+		(at 33.274 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a6d3a65-c29e-4d03-818f-64ff96d46f68")
+	)
+	(text "BMS-fault:\n0V : Error\n3.3V : No error "
+		(exclude_from_sim no)
+		(at 97.028 153.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b60b793-1322-4d5b-a4b1-4ebdef62d342")
+	)
 	(junction
 		(at 161.29 69.85)
 		(diameter 0)
