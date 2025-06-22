@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "GLR_KiCAD_Library")(type "KiCad")(uri "../glr-kicad-library/GLR_KiCAD_Library.pretty")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "../glr-kicad-library/SamacSys_Parts.pretty")(options "")(descr ""))
+)
