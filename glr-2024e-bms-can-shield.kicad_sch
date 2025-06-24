@@ -4218,7 +4218,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BC107"
+		(symbol "Transistor_BJT:Q_NPN_EBC"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -4227,7 +4227,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4235,8 +4235,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC107"
-				(at 5.08 0 0)
+			(property "Value" "Q_NPN_EBC"
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4244,28 +4244,16 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
-				(at 5.08 -1.905 0)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4274,7 +4262,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN low noise transistor"
+			(property "Description" "NPN transistor, emitter/base/collector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4283,7 +4271,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?18*"
+			(property "ki_keywords" "BJT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4292,7 +4280,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC107_0_1"
+			(symbol "Q_NPN_EBC_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -4329,7 +4317,7 @@
 					)
 				)
 			)
-			(symbol "BC107_1_1"
+			(symbol "Q_NPN_EBC_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -7980,7 +7968,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC107")
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
 		(at 125.73 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7997,7 +7985,7 @@
 				)
 			)
 		)
-		(property "Value" "BC107"
+		(property "Value" "Q_NPN_EBC"
 			(at 125.73 142.24 90)
 			(effects
 				(font
@@ -8006,27 +7994,15 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 127.635 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-			(at 125.73 148.59 0)
+			(at 123.19 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
+		(property "Datasheet" "~"
 			(at 125.73 148.59 0)
 			(effects
 				(font
@@ -8035,13 +8011,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "b1b4b169-7be4-411a-aae1-e859b958cbeb")
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 125.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "43f29be3-afdc-4fa6-b374-8ae283b1149f")
+			(uuid "b1b4b169-7be4-411a-aae1-e859b958cbeb")
 		)
 		(pin "2"
+			(uuid "43f29be3-afdc-4fa6-b374-8ae283b1149f")
+		)
+		(pin "3"
 			(uuid "8191caa5-9843-4f4f-ab60-1414e444492e")
 		)
 		(instances
@@ -9924,7 +9909,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC107")
+		(lib_id "Transistor_BJT:Q_NPN_EBC")
 		(at 135.89 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9942,7 +9927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC107"
+		(property "Value" "Q_NPN_EBC"
 			(at 140.97 160.0199 0)
 			(effects
 				(font
@@ -9951,28 +9936,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 140.97 160.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
-			(at 135.89 158.75 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-18-3"
+			(at 140.97 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
+		(property "Datasheet" "~"
 			(at 135.89 158.75 0)
 			(effects
 				(font
@@ -9981,13 +9954,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "79977f38-d9fd-4438-a500-a3d4dd4d1c29")
-		)
-		(pin "1"
-			(uuid "bb70f729-02a2-42f8-88c2-ec816c6cd028")
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 135.89 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
+			(uuid "79977f38-d9fd-4438-a500-a3d4dd4d1c29")
+		)
+		(pin "3"
+			(uuid "bb70f729-02a2-42f8-88c2-ec816c6cd028")
+		)
+		(pin "1"
 			(uuid "bd76f7f1-a4aa-4229-b595-45a883bbf12e")
 		)
 		(instances
