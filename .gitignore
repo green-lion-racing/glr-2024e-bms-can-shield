@@ -29,7 +29,3 @@ fp-info-cache
 *.xml
 *.csv
 \#auto_saved_files\#
-
-# Because subdirectory .gitignore not working?
-*.gbr
-*.gbrjob
