@@ -1303,7 +1303,7 @@
 				)
 			)
 		)
-		(property "Value" "BC107"
+		(property "Value" "Q_NPN_EBC"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1315,7 +1315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1327,7 +1327,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
+		(property "Description" "NPN transistor, emitter/base/collector"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1339,7 +1339,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO?18*")
 		(path "/dfc24258-39d8-4ee4-b1ae-503a16ae984e")
 		(sheetname "/")
 		(sheetfile "glr-2024e-bms-can-shield.kicad_sch")
@@ -4442,7 +4441,7 @@
 				)
 			)
 		)
-		(property "Value" "BC107"
+		(property "Value" "Q_NPN_EBC"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4454,7 +4453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.b-kainka.de/Daten/Transistor/BC108.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4466,7 +4465,7 @@
 				)
 			)
 		)
-		(property "Description" "0.1A Ic, 50V Vce, Low Noise General Purpose NPN Transistor, TO-18"
+		(property "Description" "NPN transistor, emitter/base/collector"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4478,7 +4477,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "TO?18*")
 		(path "/97e6c0f9-62b4-4fb8-8ddf-339291cd8443")
 		(sheetname "/")
 		(sheetfile "glr-2024e-bms-can-shield.kicad_sch")
