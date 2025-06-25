@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "CAN-Shield for NUCLEO-G474RE")
-		(date "2025-06-21")
+		(date "${CURRENT_DATE}")
 		(rev "v1")
 		(company "Green Lion Racing")
 		(comment 1 "Alexander Wallrodt")
@@ -72,7 +72,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
